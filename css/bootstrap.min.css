@@ -6718,8 +6718,7 @@ button.bg-dark:hover {
 .border-warning {
     border-color: #ffc107 !important
 }
-
-.border-danger {
+rounded
     border-color: #dc3545 !important
 }
 

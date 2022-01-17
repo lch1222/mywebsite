@@ -37,7 +37,7 @@ body {
   font: 16px/1.6 'Raleway', Arial, Helvetica, sans-serif;
   color: #fff;
   text-align:center;
-  background: #222;
+  background: rgba(121, 116, 116, 0.836);
 }
 img {
   border: 0;
@@ -458,7 +458,7 @@ a#logo {
   position:relative;
 }
 .about-img img {
-  border-radius: 10px;
+  border-radius: 100%;
   -webkit-box-shadow: 0 0 40px rgba(0,0,0,.3);
   box-shadow: 0 0 40px rgba(0,0,0,.3);
 }
@@ -853,4 +853,17 @@ textarea.form-control {
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
+}
+.li-no li{
+  list-style: none;
+  text-align: left;
+}
+.li-icon{
+  text-align: left;
+  width: 50px;
+  height: 50px;
+}
+
+.fn-s{
+  font-size: 20px;
 }
